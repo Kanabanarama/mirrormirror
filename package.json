@@ -1,0 +1,16 @@
+{
+  "name": "mirrormirror",
+  "version": "0.1.0",
+  "description": "mirror² - a PWA app to make old devices useful for displaying cool stuff you want",
+  "main": "serve.js",
+  "scripts": {
+    "start": "nodemon --inspect serve.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kana Lantzsch",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}

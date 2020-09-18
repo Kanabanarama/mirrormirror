@@ -1,0 +1,19 @@
+<html>
+<head>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" href="/images/apple-touch.png">
+  <link rel="stylesheet" type="text/css" href="/styles/main.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#AAAAAA"/>
+  <script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('DOMContentLoaded', () => {
+      navigator.serviceWorker.register('/service-worker.js');
+    }, false)
+  }
+  </script>
+</head>
+<body>
+<span><b class="status">⬤ online</b></span>
+</body>
+</html>
