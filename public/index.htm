@@ -9,11 +9,12 @@
   if ('serviceWorker' in navigator) {
     window.addEventListener('DOMContentLoaded', () => {
       navigator.serviceWorker.register('/service-worker.js');
-    }, false)
+    }, false);
   }
   </script>
+  <script src="/js/main.js"></script>
 </head>
 <body>
-<span><b class="status">⬤ online</b></span>
+<span><b class="status status-online">⬤ online</b></span>
 </body>
 </html>

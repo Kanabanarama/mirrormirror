@@ -1,3 +1,7 @@
-.status {
+.status-online {
   color: green;
+}
+
+.status-offline {
+  color: red;
 }
