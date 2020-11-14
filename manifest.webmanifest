@@ -3,19 +3,19 @@
   "short_name": "mirrormirror",
   "description": "Show useful information on your old devices",
   "icons": [{
-      "src": "/gfx/icon-192x192.png",
+      "src": "static/gfx/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },{
-      "src": "/gfx/icon-maskable-192x192.png",
+      "src": "static/gfx/icon-maskable-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },{
-        "src": "/gfx/splash-screen-512x512.png",
-        "sizes": "512x512",
-        "type": "image/png"
+      "src": "static/gfx/splash-screen-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }],
   "start_url": "/",
   "display": "fullscreen",
