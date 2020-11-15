@@ -4,13 +4,13 @@ self.addEventListener('install', function(event) {
     {
       return cache.addAll([
         '/',
-        '/manifest.json',
-        '/index.htm',
-        '/js/main.js',
-        '/styles/main.css',
-        '/gfx/icon-192x192.png',
-        '/gfx/icon-maskable-192x192.png',
-        '/gfx/splash-screen-512x512.png'
+        '/manifest.webmanifest',
+        '/index.html',
+        '/app.*.js',
+        '/static/styles/main.css',
+        '/static/gfx/icon-192x192.png',
+        '/static/gfx/icon-maskable-192x192.png',
+        '/static/gfx/splash-screen-512x512.png'
       ])
     })
   )
